@@ -1,7 +1,7 @@
 ------- OpenFAST INPUT FILE ------------------------------------------- 
 IEA 15 MW offshore reference model on UMaine VolturnUS-S semi-submersible floating platform
 ---------------------- SIMULATION CONTROL -------------------------------------- 
-False                  Echo        - Echo input data to <RootName>.ech (flag) 
+True                  Echo        - Echo input data to <RootName>.ech (flag) 
 "FATAL"                AbortLevel  - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"} 
 4200                   TMax        - Total run time (s)  
 0.01          DT              - Recommended module time step (s)
@@ -44,7 +44,7 @@ False                  Echo        - Echo input data to <RootName>.ech (flag)
 "NREL_15MW_TLP_MoorDyn_800m.dat"    MooringFile     - Name of file containing mooring system input parameters (quoted string) 
 "none"                 IceFile         - Name of file containing ice input parameters (quoted string) 
 ---------------------- OUTPUT -------------------------------------------------- 
-False                  SumPrint    - Print summary data to "<RootName>.sum" (flag) 
+True                  SumPrint    - Print summary data to "<RootName>.sum" (flag) 
 10.0                  SttsTime    - Amount of time between screen status messages (s) 
 99999.0                ChkptTime   - Amount of time between creating checkpoint files for potential restart (s) 
 default                DT_Out      - Time step for tabular output (s) (or "default") 
