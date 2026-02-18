@@ -87,7 +87,7 @@ AxCoefID  AxCd     AxCa     AxCp    AxFDMod   AxVnCOff  AxFDLoFSc
      19        31.750000000000007      -54.99261314031185        -36.0        1       0
      20        31.750000000000007      -54.99261314031185        -20.0        1       0
 ---------------------- MEMBER CROSS-SECTION PROPERTIES -------------------------
-4           NPropSets   - Number of member property sets (-)
+4           NPropSetsCyl   - Number of member property sets (-)
  PropSetID     PropD     PropThck  
     (-)         (m)         (m) 
    1         12.0    0.05
